@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Escolha Seu Carro Ideal</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-carro.png" alt="">
+            <p>Você está prestes a comprar seu primeiro carro! Mas, antes de fazer a escolha, precisa considerar suas necessidades e estilo de vida. Vamos começar a explorar as opções!</p>
+            <button class="btn-proximo" data-proximo="1">Escolher um Sedã</button>
+            <button class="btn-proximo" data-proximo="2">Escolher um SUV</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>Você optou por um Sedã, um carro elegante e prático para a cidade. Agora, precisa decidir sobre o tipo de motor. Qual será sua escolha?</p>
+            <button class="btn-proximo" data-proximo="3">Motor a Gasolina</button>
+            <button class="btn-proximo" data-proximo="4">Motor Elétrico</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Você escolheu um SUV! Perfeito para aventuras e para levar a família com conforto. Agora, resta decidir: qual tração você prefere?</p>
+            <button class="btn-proximo" data-proximo="5">Tração 4x2</button>
+            <button class="btn-proximo" data-proximo="6">Tração 4x4</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>O motor a gasolina oferece mais autonomia, mas gasta mais combustível. Você agora precisa escolher entre conforto e performance. Qual deles é mais importante para você?</p>
+            <button class="btn-proximo" data-proximo="7">Conforto</button>
+            <button class="btn-proximo" data-proximo="8">Performance</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você escolheu um motor elétrico! Sustentável e econômico, mas o custo inicial é maior. Agora, você valoriza mais o conforto ou a performance do carro?</p>
+            <button class="btn-proximo" data-proximo="7">Conforto</button>
+            <button class="btn-proximo" data-proximo="8">Performance</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Com tração 4x2, você ganha mais economia de combustível e um carro ideal para a cidade. Sua última decisão é sobre o câmbio. Qual prefere?</p>
+            <button class="btn-proximo" data-proximo="9">Câmbio Manual</button>
+            <button class="btn-proximo" data-proximo="10">Câmbio Automático</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>A tração 4x4 é ideal para terrenos difíceis e aventuras. Agora, escolha o tipo de câmbio que deseja.</p>
+            <button class="btn-proximo" data-proximo="9">Câmbio Manual</button>
+            <button class="btn-proximo" data-proximo="10">Câmbio Automático</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Com foco no conforto, seu carro está completo! Você adora dirigir de maneira relaxada e aproveitar o passeio, seja na cidade ou na estrada. Parabéns pela sua escolha!</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Com foco na performance, seu carro é potente e responde rapidamente às suas ações. Perfeito para quem adora sentir o controle total ao dirigir. Aproveite a potência!</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Com o câmbio manual, você tem mais controle sobre o carro, especialmente em terrenos irregulares. Aproveite cada marcha e divirta-se ao volante!</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Com o câmbio automático, você tem mais conforto e praticidade no trânsito, ideal para quem quer uma direção suave e sem complicações.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
